@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/todak">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="토닥토닥"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- 우리들의 카페공간-"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="250dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/power"
+            android:layout_gravity="center"
+            android:background="#ffff"
+            android:id="@+id/btToday"
+            android:paddingBottom="10dp"/>
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="입장"
+            android:layout_gravity="center"
+            android:background="#6666ff"
+            android:id="@+id/btnStart"/>
+    </LinearLayout>
+
+</LinearLayout>
